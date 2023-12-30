@@ -222,10 +222,8 @@ img {
 
 
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
     .hero-content p{
-        font-size: 15px;
-        width: 36em;
         line-height: 1.5;
     }
     
@@ -243,7 +241,7 @@ img {
     }
 
     img {
-        width: 70%;
+        width: 60%;
         max-width: 100%;
         height: auto;
         display: block;
